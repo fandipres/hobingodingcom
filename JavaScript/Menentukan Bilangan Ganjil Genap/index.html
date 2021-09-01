@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>hobingodingcom</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            h2, h4{
+                margin: 0;
+            }
+            p#demo {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Program Menentukan Bilangan Ganjil Genap</h2>
+        <h4>source code by hobingoding.com</h4>
+        <br >
+        <!-- Penginputan Bilangan yang akan Dicek -->
+        <p>Bilangan <input type="number" id="myNumber"> <button onclick="cekGanjilGenap()">Cek</button></p>
+        <p id="demo"></p>
+        <script>
+            //Penghitungan dan Pengecekan Hasil Modulo
+            function cekGanjilGenap(){
+                var bilangan = document.getElementById("myNumber").value
+                if(bilangan % 2 == 0)
+                    document.getElementById("demo").innerText = "Bilangan Genap"
+                else
+                    document.getElementById("demo").innerText = "Bilangan Ganjil"
+            }
+        </script>
+    </body>
+</html>
