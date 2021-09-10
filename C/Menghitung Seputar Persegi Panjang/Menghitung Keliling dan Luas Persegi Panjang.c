@@ -2,7 +2,7 @@
 //source code by hobingoding.com
 
 int main(){
-    int panjang, lebar, tinggi, keliling, luas;
+    int panjang, lebar, keliling, luas;
 
     //Input Variabel
     printf("Program Menghitung Keliling dan Luas Persegi Panjang\n");
