@@ -15,7 +15,7 @@ int main(){
     scanf("%d", &tinggi);
 
     //Menghitung Luas
-    tinggi = (sisi1 + sisi2) * tinggi / 2;
-    printf("Luas         : %d cm^2\n", tinggi);
+    luas = (sisi1 + sisi2) * tinggi / 2;
+    printf("Luas         : %d cm^2\n", luas);
     return 0;
 }
