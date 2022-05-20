@@ -1,7 +1,8 @@
 print("Program Menghitung Keliling dan Luas Persegi")
-#visit us @hobingoding.com
+print("visit us @hobingoding.com")
 print()
-
-sisi = int(input("Sisi : "))
+#Input Sisi
+sisi = int(input("Input Sisi : "))
+#Hitung Keliling dan Luas
 print("Keliling : ", 4 * sisi)
 print("Luas : ", sisi * sisi)
