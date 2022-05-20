@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>hobingodingcom</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            h2, h4{
+                margin: 0;
+            }
+            p#demo {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Program Menghitung Luas Lingkaran</h2>
+        <h4>visit us @hobingoding.com</h4>
+        <br >
+        <!-- Penginputan Jari-jari -->
+        <label for="jarijari">Jari-jari</label>
+        <input type="number" id="jarijari" name="jarijari">
+        <button onclick="myFunction()">Hitung</button>
+        <p id="demo"></p>
+        <script>
+            //Penghitungan Luas Lingkaran
+            function myFunction(){
+                var jarijari = document.getElementById("jarijari").value
+                var luas = 3.14 * jarijari * jarijari
+                document.getElementById("demo").innerText = "Luas Lingkaran = " + luas.toFixed(2)
+            }
+        </script>
+    </body>
+</html>
