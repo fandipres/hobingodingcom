@@ -1,4 +1,4 @@
-print("Mengecek Kata Palindrom atau Bukan Palindrom")
+print("Program Mengecek Kata Palindrom atau Bukan Palindrom")
 print("visit us @hobingoding.com")
 print()
 #Input Kata
