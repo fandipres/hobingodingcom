@@ -1,4 +1,4 @@
-print("Mengecek Angka Ganjil atau Genap")
+print("Program Mengecek Angka Ganjil atau Genap")
 print("visit us @hobingoding.com")
 print()
 #Input Angka
