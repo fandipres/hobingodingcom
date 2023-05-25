@@ -8,4 +8,4 @@ lebar = int(input("Input Lebar : "))
 #Input Tinggi
 tinggi = int(input("Input Tinggi : "))
 #Hitung Luas
-print("Volume : " panjang * lebar * tinggi)
+print("Volume :", panjang * lebar * tinggi)
