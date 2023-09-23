@@ -1,8 +1,6 @@
 #include<stdio.h>
-//visit us @hobingoding.com
 
-int lucas(int a)
-{
+int lucas(int a) {
     if(a == 0)
         return (2);
     if(a == 1)
@@ -11,22 +9,24 @@ int lucas(int a)
         return lucas(a-1) + lucas(a-2);
 }
 
-int main(){
-    int banyakBarisan, i;
+int main() {
+    int panjang_barisan, i;
     int total = 0;
 
-    printf("Program Menampilkan dan Menghitung Barisan Bilangan Lucas\n\n");
-    printf("Input n Bilangan Lucas\t: ");
-    scanf("%d", &banyakBarisan);
+    printf("Program Menampilkan dan Menghitung Barisan Bilangan Lucas\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Panjang Barisan
+    printf("Input Panjang Barisan : ");
+    scanf("%d", &panjang_barisan);
 
-    printf("Barisan Bilangan Lucas\t: ");
-    for(i = 0; i <= banyakBarisan; i++)
+    // Barisan Bilangan Lucas
+    printf("Barisan Bilangan Lucas : ");
+    for(i = 0; i <= panjang_barisan; i++)
     {
         printf("%d ", lucas(i));
         total += lucas(i);
     }
-    printf("\nTotal Penjumlahan\t: %d\n", total);
-
-    getch();
+    printf("\n");
+    printf("Total : %d", total);
     return 0;
 }
