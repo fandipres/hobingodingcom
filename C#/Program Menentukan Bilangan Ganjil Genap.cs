@@ -13,13 +13,13 @@ namespace hobingodingcom
             int bilangan;
 
             Console.WriteLine("Program Menentukan Bilangan Ganjil Genap\n");
-            //visit us @hobingoding.com
+            // visit us hobingoding.com
 
-            //Penginputan Bilangan yang akan Dicek
+            // Input Bilangan
             Console.Write("Input Bilangan : ");            
             bilangan = Convert.ToInt32(Console.ReadLine());
 
-            //Penghitungan dan Pengecekan Hasil Modulo
+            // Cek Ganjil Genap
             if (bilangan % 2 == 0)
                 Console.WriteLine("Hasil : Bilangan Genap");
             else
