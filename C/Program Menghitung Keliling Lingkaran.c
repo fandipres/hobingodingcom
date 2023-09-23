@@ -1,18 +1,18 @@
 #include <stdio.h>
-#define phi 3.14 //Pendeklarasian Nilai Phi
-//visit us @hobingoding.com
+#define phi 3.14
 
-int main(){
+int main() {
     int r;
     float keliling;
 
-    printf("Program Menghitung Keliling Lingkaran\n\n");
-    printf("Input Nilai Jari-jari: ");
+    printf("Program Menghitung Keliling Lingkaran\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Jari-jari
+    printf("Input Jari-jari : ");
     scanf("%d", &r);
 
-    keliling = phi * 2 * r; //Rumus Keliling Lingkaran
-    printf("Keliling Lingkaran   : %.2f", keliling);
-
-    getch();
+    // Hitung Keliling
+    keliling = phi * 2 * r;
+    printf("Keliling Lingkaran : %.2f", keliling);
     return 0;
 }
