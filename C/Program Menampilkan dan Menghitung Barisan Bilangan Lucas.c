@@ -21,8 +21,7 @@ int main() {
 
     // Barisan Bilangan Lucas
     printf("Barisan Bilangan Lucas : ");
-    for(i = 0; i <= panjang_barisan; i++)
-    {
+    for(i = 0; i <= panjang_barisan; i++) {
         printf("%d ", lucas(i));
         total += lucas(i);
     }
