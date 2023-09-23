@@ -7,4 +7,5 @@ alas = int(input("Input Alas : "))
 tinggi = int(input("Input Tinggi : "))
 
 # Hitung Luas
-print("Luas : %.2f" % (alas * tinggi / 2))
+luas = alas * tinggi / 2
+print("Luas Segitiga : %.2f"%(luas))
