@@ -1,21 +1,22 @@
 #include <stdio.h>
-//source code by hobingoding.com
 
-int main(){
+int main() {
     int panjang, lebar, keliling, luas;
 
-    //Input Variabel
     printf("Program Menghitung Keliling dan Luas Persegi Panjang\n");
-    printf("source code by hobingoding.com\n");
-    printf("\nInput Panjang\t: ");
+    printf("visit us hobingoding.com\n\n");
+    // Input Panjang
+    printf("Input Panjang : ");
     scanf("%d", &panjang);
-    printf("Input Lebar  \t: ");
+    // Input Lebar
+    printf("Input Lebar : ");
     scanf("%d", &lebar);
 
-    //Menghitung Keliling dan Luas
+    // Hitung Keliling
     keliling = (2 * panjang) + (2 * lebar);
+    // Hitung Luas
     luas = panjang * lebar;
-    printf("Keliling \t: %d\n", keliling);
-    printf("Luas \t\t: %d\n", luas);
+    printf("Keliling Persegi Panjang : %d\n", keliling);
+    printf("Luas Persegi Panjang : %d", luas);
     return 0;
 }
