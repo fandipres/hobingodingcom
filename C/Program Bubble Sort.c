@@ -11,7 +11,7 @@ int main() {
     int data[banyak_data];
 
     // Input Data
-    printf("Data yang Belum Berurut : ");
+    printf("Input Data : ");
     for(i = 0; i < banyak_data; i++)
     {
         scanf("%d", &data[i]);
