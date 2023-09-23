@@ -1,18 +1,17 @@
 #include <stdio.h>
-//source code by hobingoding.com
 
-int main(){
+int main() {
     int r;
     float phi = 3.14, volume;
 
-    //Input Variabel
     printf("Program Menghitung Volume Bola\n");
-    printf("source code by hobingoding.com\n");
-    printf("\nInput Jari-jari : ");
+    printf("visit us hobingoding.com\n\n");
+    // Input Jari-jari
+    printf("Input Jari-jari : ");
     scanf("%d", &r);
 
-    //Menghitung Volume Permukaan
+    // Hitung Volume
     volume = (4.0 / 3) * phi * r * r * r;
-    printf("Volume          : %.2f\n", volume);
+    printf("Volume Bola : %.2f", volume);
     return 0;
 }
