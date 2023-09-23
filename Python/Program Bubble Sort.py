@@ -1,19 +1,22 @@
 print("Pengurutan Data dengan Algoritma Bubble Sort")
-print("visit us @hobingoding.com")
+print("visit us hobingoding.com")
 print()
-#Input Banyak Data
-banyakData = int(input("Input Banyak Data : "))
 data = []
-#Input Data
-print("Data yang Belum Terurut :")
-for i in range(0, banyakData):
+# Input Banyak Data
+banyak_data = int(input("Input Banyak Data : "))
+
+# Input Data
+print("Input Data :")
+for i in range(0, banyak_data):
     data.append(int(input()))
-#Algoritma Bubble Sort
-for i in range(0, banyakData):
-    for j in range(0, banyakData-i-1):
+
+# Algoritma Bubble Sort
+for i in range(0, banyak_data):
+    for j in range(0, banyak_data-i-1):
         if(data[j] > data[j+1]):
             tmp = data[j]
             data[j] = data[j+1]
             data[j+1] = tmp
-#Output Data
+
+# Hasil Pengurutan Data
 print("Hasil Pengurutan Data :", data)
