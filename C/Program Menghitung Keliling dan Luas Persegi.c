@@ -1,19 +1,19 @@
 #include <stdio.h>
-//source code by hobingoding.com
 
-int main(){
+int main() {
     int sisi, keliling, luas;
 
-    //Input Variabel
     printf("Program Menghitung Keliling dan Luas Persegi\n");
-    printf("source code by hobingoding.com\n");
-    printf("\nInput Sisi : ");
+    printf("visit us hobingoding.com\n\n");
+    // Input Sisi
+    printf("Input Sisi : ");
     scanf("%d", &sisi);
 
-    //Menghitung Keliling dan Luas
+    // Hitung Keliling
     keliling = 4 * sisi;
+    // Hitung Luas
     luas = sisi * sisi;
-    printf("Keliling   : %d\n", keliling);
-    printf("Luas       : %d\n", luas);
+    printf("Keliling Persegi : %d\n", keliling);
+    printf("Luas Persegi : %d", luas);
     return 0;
 }
