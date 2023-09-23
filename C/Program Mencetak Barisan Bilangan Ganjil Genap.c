@@ -1,25 +1,27 @@
 #include <stdio.h>
-//visit us @hobingoding.com
 
-int main(){
-    int angka;
+int main() {
+    int n;
 
-    printf("Program Mencetak Barisan Bilangan Ganjil dan Genap\n\n");
-    printf("Angka : ");
-    scanf("%d", &angka);
+    printf("Program Mencetak Barisan Bilangan Ganjil Genap\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Nilai
+    printf("Input Nilai n : ");
+    scanf("%d", &n);
 
+    // Barisan Bilangan Genap
     printf("Bilangan Genap : ");
-    for(int i = 0; i <= angka; i++){
+    for(int i = 0; i <= n; i++) {
         if(i % 2 == 0)
             printf("%d ", i);
     }
 
-    printf("\nBilangan Ganjil : ");
-    for(int i = 0; i <= angka; i++){
+    // Barisan Bilangan Ganjil
+    printf("\n");
+    printf("Bilangan Ganjil : ");
+    for(int i = 0; i <= n; i++) {
         if(i % 2 != 0)
             printf("%d ", i);
     }
-
-    getch();
     return 0;
 }
