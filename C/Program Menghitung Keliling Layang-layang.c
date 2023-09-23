@@ -1,19 +1,20 @@
 #include <stdio.h>
-//source code by hobingoding.com
 
-int main(){
-    int sisi1, sisi2;
+int main() {
+    int sisi_1, sisi_2;
     int keliling;
 
-    //Input Variabel
-    printf("Program Menghitung Keliling Layang-layang\n\n");
+    printf("Program Menghitung Keliling Layang-layang\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Sisi-1
     printf("Input Sisi-1 : ");
-    scanf("%d", &sisi1);
+    scanf("%d", &sisi_1);
+    // Input Sisi-2
     printf("Input Sisi-2 : ");
-    scanf("%d", &sisi2);
+    scanf("%d", &sisi_2);
 
-    //Menghitung Keliling
-    keliling = 2 * (sisi1 + sisi2);
-    printf("Keliling     : %d\n", keliling);
+    // Hitung Keliling
+    keliling = 2 * (sisi_1 + sisi_2);
+    printf("Keliling Layang-layang : %d", keliling);
     return 0;
 }
