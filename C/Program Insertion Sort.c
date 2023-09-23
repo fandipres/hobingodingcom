@@ -1,23 +1,24 @@
 #include <stdio.h>
-//visit us @hobingoding.com
 
-int main(){
-    int banyakData, i, j;
+int main() {
+    int banyak_data, i, j;
 
-    printf("Pengurutan Data dengan Algoritma Insertion Sort\n\n");
-    printf("Input Banyak Data \t: ");
-    scanf("%d", &banyakData);
-    int data[banyakData];
+    printf("Pengurutan Data dengan Algoritma Insertion Sort\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Banyak Data
+    printf("Input Banyak Data : ");
+    scanf("%d", &banyak_data);
+    int data[banyak_data];
 
-    //Perulangan untuk menginput data sebanyak n
-    printf("Data yang Belum Berurut : ");
-    for(i = 0; i < banyakData; i++)
+    // Input Data
+    printf("Input Data : ");
+    for(i = 0; i < banyak_data; i++)
     {
         scanf("%d", &data[i]);
     }
 
-    //Algoritma Insertion Sort
-    for(i = 0; i < banyakData; i++)
+    // Algoritma Insertion Sort
+    for(i = 0; i < banyak_data; i++)
     {
         for(j = i; j > 0 && data[j] < data[j-1]; j--)
         {
@@ -27,14 +28,11 @@ int main(){
         }
     }
 
-    //Pencetakan data yang sudah diurutkan
-    printf("Hasil Pengurutan Data   : ");
-    for (i = 0; i < banyakData; i++)
+    // Hasil Pengurutan Data
+    printf("Hasil Pengurutan Data : ");
+    for (i = 0; i < banyak_data; i++)
     {
         printf("%d ", data[i]);
     }
-    printf("\n");
-
-    getch();
     return 0;
 }
