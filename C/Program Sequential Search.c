@@ -1,37 +1,39 @@
 #include <stdio.h>
-//visit us @hobingoding.com
 
-int main(){
-    int banyakData, i, cari;
+int main() {
+    int banyak_data, i, cari;
     int ketemu = 0;
 
-    printf("Pencarian Data dengan Algoritma Sequential Search\n\n");
-    printf("Input Banyak Data\t: ");
-    scanf("%d", &banyakData);
-    int data[banyakData];
+    printf("Pencarian Data dengan Algoritma Sequential Search\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Banyak Data
+    printf("Input Banyak Data : ");
+    scanf("%d", &banyak_data);
+    int data[banyak_data];
 
-    printf("Input Kumpulan Data\t: ");
-    for(i = 0; i < banyakData; i++)
+    // Input Data
+    printf("Input Data : ");
+    for(i = 0; i < banyak_data; i++)
     {
         scanf("%d", &data[i]);
     }
 
-    printf("Input Data yang Dicari  : ");
+    // Input Cari Data
+    printf("Input Cari Data : ");
     scanf("%d", &cari);
 
-    for(i = 0; i < banyakData; i++)
+    // Algoritma Sequential Search
+    for(i = 0; i < banyak_data; i++)
     {
         if(cari == data[i])
         {
             ketemu = 1;
-            printf("Hasil Pencarian \t: Data Ditemukan pada Indeks ke - %d\n", i);
+            printf("Hasil : Data ditemukan pada indeks ke-%d", i);
             break;
         }
     }
 
     if(ketemu == 0)
-        printf("Hasil Pencarian \t  : Data Tidak Ditemukan\n");
-
-    getch();
+        printf("Hasil : Data tidak ditemukan");
     return 0;
 }
