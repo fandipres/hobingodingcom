@@ -1,19 +1,20 @@
 #include <stdio.h>
-//visit us @hobingoding.com
 
-int main(){
-    int alas, sisimiring;
+int main() {
+    int alas, sisi_miring;
     float keliling;
 
-    printf("Program Menghitung Keliling Jajargenjang\n\n");
-    printf("Input Alas \t  : ");
+    printf("Program Menghitung Keliling Jajargenjang\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Alas
+    printf("Input Alas : ");
     scanf("%d", &alas);
+    // Input Sisi Miring
     printf("Input Sisi Miring : ");
-    scanf("%d", &sisimiring);
+    scanf("%d", &sisi_miring);
 
-    keliling = 2 * (alas + sisimiring);
-    printf("Keliling Jajar Genjang : %.2f cm\n", keliling);
-
-    getch();
+    // Hitung Keliling
+    keliling = 2 * (alas + sisi_miring);
+    printf("Keliling Jajar Genjang : %.2f", keliling);
     return 0;
 }
