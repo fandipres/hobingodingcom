@@ -12,18 +12,14 @@ int main() {
 
     // Input Data
     printf("Input Data : ");
-    for(i = 0; i < banyak_data; i++)
-    {
+    for(i = 0; i < banyak_data; i++) {
         scanf("%d", &data[i]);
     }
 
     // Algoritma Bubble Sort
-    for(i = 0; i < banyak_data; i++)
-    {
-        for(j = 0; j < banyak_data-i-1; j++)
-        {
-            if(data[j] > data[j+1])
-            {
+    for(i = 0; i < banyak_data; i++) {
+        for(j = 0; j < banyak_data-i-1; j++) {
+            if(data[j] > data[j+1]) {
                 int tmp = data[j];
                 data[j] = data[j+1];
                 data[j+1] = tmp;
@@ -33,8 +29,7 @@ int main() {
 
     // Hasil Pengurutan Data
     printf("Hasil Pengurutan Data : ");
-    for (i = 0; i < banyak_data; i++)
-    {
+    for (i = 0; i < banyak_data; i++) {
         printf("%d ", data[i]);
     }
     return 0;
