@@ -1,25 +1,26 @@
 #include <stdio.h>
-//visit us @hobingoding.com
 
-int main(){
-    int banyakData, i, j;
+int main() {
+    int banyak_data, i, j;
 
-    printf("Pengurutan Data dengan Algoritma Bubble Sort\n\n");
-    printf("Input Banyak Data \t: ");
-    scanf("%d", &banyakData);
-    int data[banyakData];
+    printf("Pengurutan Data dengan Algoritma Bubble Sort\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Banyak Data
+    printf("Input Banyak Data : ");
+    scanf("%d", &banyak_data);
+    int data[banyak_data];
 
-    //Perulangan untuk menginput data sebanyak n
+    // Input Data
     printf("Data yang Belum Berurut : ");
-    for(i = 0; i < banyakData; i++)
+    for(i = 0; i < banyak_data; i++)
     {
         scanf("%d", &data[i]);
     }
 
-    //Algoritma Bubble Sort
-    for(i = 0; i < banyakData; i++)
+    // Algoritma Bubble Sort
+    for(i = 0; i < banyak_data; i++)
     {
-        for(j = 0; j < banyakData-i-1; j++)
+        for(j = 0; j < banyak_data-i-1; j++)
         {
             if(data[j] > data[j+1])
             {
@@ -30,14 +31,11 @@ int main(){
         }
     }
 
-    //Pencetakan data yang sudah diurutkan
-    printf("Hasil Pengurutan Data   : ");
-    for (i = 0; i < banyakData; i++)
+    // Hasil Pengurutan Data
+    printf("Hasil Pengurutan Data : ");
+    for (i = 0; i < banyak_data; i++)
     {
         printf("%d ", data[i]);
     }
-    printf("\n");
-
-    getch();
     return 0;
 }
