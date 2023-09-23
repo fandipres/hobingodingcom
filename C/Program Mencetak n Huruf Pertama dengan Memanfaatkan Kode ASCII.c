@@ -1,33 +1,32 @@
-#include<stdio.h>
-//visit us @hobingoding.com
+#include <stdio.h>
 
-int main(){
-    int hurufKecil = 97;
-    int hurufBesar = 65;
+int main() {
+    int huruf_kecil = 97;
+    int huruf_besar = 65;
     int n;
 
-    printf("Program Mencetak n Huruf Pertama\n\n");
+    printf("Program Mencetak n Huruf Pertama\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Nilai
     printf("Input Nilai n : ");
     scanf("%d", &n);
 
-    if(n < 0 || n > 26)
-    {
-        printf("SORRY : Nilai n tidak sesuai dengan jumlah alfabet (1 - 26). ");
+    // Cetak Nilai
+    if(n < 0 || n > 26) {
+        printf("MAAF : Nilai n tidak sesuai dengan jumlah alfabet (1-26)");
     }
-    else
-    {
-        printf("Lower Case    : ");
-        for(int i = 0; i < n; i++){
-            printf("%c ", hurufKecil);
-            hurufKecil++;
+    else {
+        printf("Lower Case : ");
+        for(int i = 0; i < n; i++) {
+            printf("%c ", huruf_kecil);
+            huruf_kecil++;
         }
-        printf("\nUpper Case    : ");
-        for(int i = 0; i < n; i++){
-            printf("%c ", hurufBesar);
-            hurufBesar++;
+        printf("\n");
+        printf("Upper Case : ");
+        for(int i = 0; i < n; i++) {
+            printf("%c ", huruf_besar);
+            huruf_besar++;
         }
     }
-
-    getch();
     return 0;
 }
