@@ -1,19 +1,19 @@
 #include <stdio.h>
-//visit us by hobingoding.com
 
-int main(){
-    int diagonal1, diagonal2;
-    int luas;
+int main() {
+    int diagonal_1, diagonal_2, luas;
 
-    //Input Variabel
-    printf("Program Menghitung Luas Belah Ketupat\n\n");
-    printf("Diagonal 1 : ");
-    scanf("%d", &diagonal1);
-    printf("Diagonal 2 : ");
-    scanf("%d", &diagonal2);
+    printf("Program Menghitung Luas Belah Ketupat\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Diagonal-1
+    printf("Diagonal-1 : ");
+    scanf("%d", &diagonal_1);
+    // Input Diagonal-2
+    printf("Diagonal-2 : ");
+    scanf("%d", &diagonal_2);
 
-    //Menghitung Luas
-    luas = 0.5 * diagonal1 * diagonal2;
-    printf("Luas       : %d cm^2", luas);
+    // Hitung Luas
+    luas = 0.5 * diagonal_1 * diagonal_2;
+    printf("Luas Belah Ketupat : %d", luas);
     return 0;
 }
