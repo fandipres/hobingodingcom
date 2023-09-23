@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <math.h>
-//visit us by hobingoding.com
 
-int main(){
+int main() {
     int sisi;
     float luas;
 
-    //Input Variabel
-    printf("Program Menghitung Luas Segi Enam\n\n");
-    printf("Sisi   : ");
+    printf("Program Menghitung Luas Segi Enam\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Sisi
+    printf("Input Sisi : ");
     scanf("%d", &sisi);
 
-    //Menghitung Luas
+    // Hitung Luas
     luas = (3 * sqrt(3)/2) * sisi * sisi;
-    printf("Luas   : %.2f cm^2", luas);
+    printf("Luas Segi Enam : %.2f", luas);
     return 0;
 }
