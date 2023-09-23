@@ -1,23 +1,25 @@
 #include <stdio.h>
-//source code by hobingoding.com
 
-int main(){
-    int sisi1, sisi2, sisi3, sisi4;
-    int keliling;
+int main() {
+    int sisi_1, sisi_2, sisi_3, sisi_4, keliling;
 
-    //Input Variabel
-    printf("Program Menghitung Keliling Trapesium\n\n");
+    printf("Program Menghitung Keliling Trapesium\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Sisi-1
     printf("Input Sisi-1 : ");
-    scanf("%d", &sisi1);
+    scanf("%d", &sisi_1);
+    // Input Sisi-2
     printf("Input Sisi-2 : ");
-    scanf("%d", &sisi2);
+    scanf("%d", &sisi_2);
+    // Input Sisi-3
     printf("Input Sisi-3 : ");
-    scanf("%d", &sisi3);
+    scanf("%d", &sisi_3);
+    // Input Sisi-4
     printf("Input Sisi-4 : ");
-    scanf("%d", &sisi4);
+    scanf("%d", &sisi_4);
 
-    //Menghitung Keliling
-    keliling = sisi1 + sisi2 + sisi3 + sisi4;
-    printf("Keliling     : %d\n", keliling);
+    // Hitung Keliling
+    keliling = sisi_1 + sisi_2 + sisi_3 + sisi_4;
+    printf("Keliling Trapesium : %d", keliling);
     return 0;
 }
