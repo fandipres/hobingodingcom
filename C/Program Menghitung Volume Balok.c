@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int panjang, lebar, tinggi, volume;
     
     printf("Program Menghitung Volume Balok\n");
