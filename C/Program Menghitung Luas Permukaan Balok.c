@@ -1,21 +1,22 @@
 #include <stdio.h>
-//source code by hobingoding.com
 
-int main(){
-    int panjang, lebar, tinggi, luasPermukaan;
+int main() {
+    int panjang, lebar, tinggi, luas_permukaan;
 
-    //Input Variabel
     printf("Program Menghitung Luas Permukaan Balok\n");
-    printf("source code by hobingoding.com\n");
-    printf("\nInput Panjang\t: ");
+    printf("visit us hobingoding.com\n\n");
+    // Input Panjang
+    printf("Input Panjang : ");
     scanf("%d", &panjang);
-    printf("Input Lebar  \t: ");
+    // Input Lebar
+    printf("Input Lebar : ");
     scanf("%d", &lebar);
-    printf("Input Tinggi \t: ");
+    // Input Tinggi
+    printf("Input Tinggi : ");
     scanf("%d", &tinggi);
 
-    //Menghitung Luas Permukaan
-    luasPermukaan = 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi));
-    printf("Luas Permukaan Balok : %d cm^2\n", luasPermukaan);
+    // Hitung Luas Permukaan
+    luas_permukaan = 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi));
+    printf("Luas Permukaan Balok : %d", luas_permukaan);
     return 0;
 }
