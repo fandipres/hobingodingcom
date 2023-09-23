@@ -6,10 +6,10 @@ int main() {
     printf("Program Menghitung Luas Belah Ketupat\n");
     printf("visit us hobingoding.com\n\n");
     // Input Diagonal-1
-    printf("Diagonal-1 : ");
+    printf("Input Diagonal-1 : ");
     scanf("%d", &diagonal_1);
     // Input Diagonal-2
-    printf("Diagonal-2 : ");
+    printf("Input Diagonal-2 : ");
     scanf("%d", &diagonal_2);
 
     // Hitung Luas
