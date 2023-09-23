@@ -1,21 +1,22 @@
 #include <stdio.h>
-//source code by hobingoding.com
 
 int main(){
     int panjang, lebar, tinggi, volume;
     
-    //Input Variabel
     printf("Program Menghitung Volume Balok\n");
-    printf("source code by hobingoding.com\n");
-    printf("\nInput Panjang\t: ");
+    printf("visit us hobingoding.com\n\n");
+    // Input Panjang
+    printf("Input Panjang : ");
     scanf("%d", &panjang);
-    printf("Input Lebar  \t: ");
+    // Input Lebar
+    printf("Input Lebar : ");
     scanf("%d", &lebar);
-    printf("Input Tinggi \t: ");
+    // Input Tinggi
+    printf("Input Tinggi : ");
     scanf("%d", &tinggi);
 
-    //Menghitung Volume
+    // Hitung Volume
     volume = panjang * lebar * tinggi;
-    printf("Volume Balok \t: %d cm^3\n", volume);
+    printf("Volume Balok : %d", volume);
     return 0;
 }
