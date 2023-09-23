@@ -13,8 +13,7 @@ int main() {
 
     // Input Data
     printf("Input Data : ");
-    for(i = 0; i < banyak_data; i++)
-    {
+    for(i = 0; i < banyak_data; i++) {
         scanf("%d", &data[i]);
     }
 
@@ -23,10 +22,8 @@ int main() {
     scanf("%d", &cari);
 
     // Algoritma Sequential Search
-    for(i = 0; i < banyak_data; i++)
-    {
-        if(cari == data[i])
-        {
+    for(i = 0; i < banyak_data; i++) {
+        if(cari == data[i]) {
             ketemu = 1;
             printf("Hasil : Data ditemukan pada indeks ke-%d", i);
             break;
