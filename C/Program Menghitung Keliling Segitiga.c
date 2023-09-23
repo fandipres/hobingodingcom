@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int sisi_1, sisi_2, sisi_3, sisi_4;
-    int keliling;
+    int sisi_1, sisi_2, sisi_3;
+    float keliling;
 
-    printf("Program Menghitung Keliling Trapesium\n");
+    printf("Program Menghitung Keliling Segitiga\n");
     printf("visit us hobingoding.com\n\n");
     // Input Sisi-1
     printf("Input Sisi-1 : ");
@@ -15,12 +15,9 @@ int main() {
     // Input Sisi-3
     printf("Input Sisi-3 : ");
     scanf("%d", &sisi_3);
-    // Input Sisi-4
-    printf("Input Sisi-4 : ");
-    scanf("%d", &sisi_4);
 
     // Hitung Keliling
-    keliling = sisi_1 + sisi_2 + sisi_3 + sisi_4;
-    printf("Keliling Trapesium : %d", keliling);
+    keliling = sisi_1 + sisi_2 + sisi_3;
+    printf("Keliling Segitiga : %.2f", keliling);
     return 0;
 }
