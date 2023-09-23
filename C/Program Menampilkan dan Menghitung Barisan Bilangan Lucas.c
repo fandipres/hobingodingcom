@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int lucas(int a) {
     if(a == 0)
