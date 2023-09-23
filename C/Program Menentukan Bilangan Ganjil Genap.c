@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int bilangan;
 
     printf("Program Menentukan Bilangan Ganjil Genap\n");
