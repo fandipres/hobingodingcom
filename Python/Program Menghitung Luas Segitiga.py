@@ -1,5 +1,5 @@
 print("Program Menghitung Luas Segitiga")
-print("visit us @hobingoding.com")
+print("visit us hobingoding.com")
 print()
 # Input Alas
 alas = int(input("Input Alas : "))
