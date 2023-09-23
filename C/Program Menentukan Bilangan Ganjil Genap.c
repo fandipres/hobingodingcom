@@ -1,20 +1,18 @@
 #include <stdio.h>
-// visit us @hobingoding.com
 
 int main(){
-    int angka;
+    int bilangan;
 
-    printf("Program Mengecek Angka Ganjil atau Genap\n\n");
-    // Input Angka
-    printf("Angka : ");
-    scanf("%d", &angka);
+    printf("Program Menentukan Bilangan Ganjil Genap\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Bilangan
+    printf("Input Bilangan : ");
+    scanf("%d", &bilangan);
 
-    // Pengecekan Angka
-    if(angka % 2 ==0)
-        printf("Angka %d merupakan angka Genap.", angka);
+    // Cek Ganjil Genap
+    if(bilangan % 2 ==0)
+        printf("Hasil : Bilangan Genap");
     else
-        printf("Angka %d merupakan angka Ganjil.", angka);
-
-    getch();
+        printf("Hasil : Bilangan Ganjil");
     return 0;
 }
