@@ -1,17 +1,16 @@
 #include <stdio.h>
-//visit us by hobingoding.com
 
-int main(){
-    int sisi;
-    int keliling;
+int main() {
+    int sisi, keliling;
 
-    //Input Variabel
-    printf("Program Menghitung Keliling Segi Enam\n\n");
-    printf("Sisi\t   : ");
+    printf("Program Menghitung Keliling Segi Enam\n");
+    printf("visit us hobingoding.com\n\n");
+    // Input Sisi
+    printf("Input Sisi : ");
     scanf("%d", &sisi);
 
-    //Menghitung Keliling
+    // Hitung Keliling
     keliling = 6 * sisi;
-    printf("Keliling   : %d", keliling);
+    printf("Keliling Segi Enam : %d", keliling);
     return 0;
 }
