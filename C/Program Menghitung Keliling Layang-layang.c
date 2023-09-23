@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int sisi_1, sisi_2;
-    int keliling;
+    int sisi_1, sisi_2, keliling;
 
     printf("Program Menghitung Keliling Layang-layang\n");
     printf("visit us hobingoding.com\n\n");
