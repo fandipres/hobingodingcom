@@ -1,9 +1,10 @@
 print("Program Menghitung Luas Segitiga")
 print("visit us @hobingoding.com")
 print()
-#Input Alas
+# Input Alas
 alas = int(input("Input Alas : "))
-#Input Tinggi
+# Input Tinggi
 tinggi = int(input("Input Tinggi : "))
-#Hitung Luas
+
+# Hitung Luas
 print("Luas : %.2f" % (alas * tinggi / 2))
