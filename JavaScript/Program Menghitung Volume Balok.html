@@ -5,7 +5,6 @@
     <style>
         body { text-align: center; }
         h2, h4 { margin: 0; }
-        p#demo { font-weight: bold; }
         input { width: 75px; }
     </style>
 </head>
@@ -14,21 +13,21 @@
     <h4>visit us hobingoding.com</h4>
     <br>
     <!-- Input Panjang -->
-    <label for="panjang">Panjang</label><input type="number" id="panjang">
+    <span>Panjang </span><input type="number" id="panjang">
     <!-- Input Lebar -->
-    <label for="lebar">Lebar</label><input type="number" id="lebar">
+    <span>Lebar </span><input type="number" id="lebar">
     <!-- Input Tinggi -->
-    <label for="tinggi">Tinggi</label><input type="number" id="tinggi">
+    <span>Tinggi </span><input type="number" id="tinggi">
     <button onclick="hitungVolume()">Hitung</button>
     <p id="hasil"></p>
     <script>
         // Hitung Volume
         function hitungVolume() {
-            var panjang = document.getElementById("panjang").value
-            var lebar = document.getElementById("lebar").value
-            var tinggi = document.getElementById("tinggi").value
+            let panjang = document.getElementById("panjang").value
+            let lebar = document.getElementById("lebar").value
+            let tinggi = document.getElementById("tinggi").value
             let hasil = document.getElementById("hasil")
-            var volume = panjang * lebar * tinggi
+            let volume = panjang * lebar * tinggi
             hasil.innerText = "Volume Balok : " + volume
         }
     </script>
