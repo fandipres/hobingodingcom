@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>hobingodingcom</title>
-        <style>
-            body {
-                text-align: center;
-            }
-            h2, h4{
-                margin: 0;
-            }
-            p#demo {
-                font-weight: bold;
-            }
-        </style>
-    </head>
-    <body>
-        <h2>Program Mengecek Kata dan Kalimat Palindrom</h2>
-        <h4>source code by hobingoding.com</h4>
-        <br >
-        <!-- Penginputan Kata dan Kalimat yang akan Dicek -->
-        <p>Kata/Kalimat <input type="text" id="myText"> <button onclick="cekPalindrom()">Cek</button></p>
-        <p id="demo"></p>
-        <script>
-            //Pengecekan Palindrom
-            function cekPalindrom(){
-                var kalimat = document.getElementById("myText").value
-                for(i = 0; i < kalimat.length; i++){
-                    if(kalimat[i] != kalimat[kalimat.length - (i+1)]){
-                        document.getElementById("demo").innerText = "Bukan Palindrome"
-                        break
-                    }
-                    else
-                        document.getElementById("demo").innerText = "Palindrome"
+<head>
+    <title>hobingodingcom</title>
+    <style>
+        body { text-align: center; }
+        h2, h4 { margin: 0; }
+    </style>
+</head>
+<body>
+    <h2>Program Mengecek Kata dan Kalimat Palindrom</h2>
+    <h4>visit us hobingoding.com</h4>
+    <br>
+    <!-- Input Kata -->
+    <span>Kata </span><input type="text" id="kata">
+    <button onclick="cekPalindrom()">Cek</button>
+    <p id="hasil"></p>
+    <script>
+        // Cek Palindrom
+        function cekPalindrom() {
+            let kata = document.getElementById("kata").value
+            let hasil = document.getElementById("hasil")
+            for(i = 0; i < kata.length; i++) {
+                if(kata[i] != kata[kata.length - (i+1)]) {
+                    hasil.innerText = "Hasil : Bukan Palindrome"
+                    break
                 }
+                else
+                    hasil.innerText = "Hasil : Palindrom"
             }
-        </script>
-    </body>
+        }
+    </script>
+</body>
 </html>
