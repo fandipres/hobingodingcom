@@ -1,44 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>hobingodingcom</title>
-        <style>
-            body {
-                text-align: center;
-            }
-            h2, h4{
-                margin: 0;
-            }
-            p#demo {
-                font-weight: bold;
-            }
-            input {
-                width: 75px;
-            }
-        </style>
-    </head>
-    <body>
-        <h2>Program Menghitung Volume Balok</h2>
-        <h4>visit us @hobingoding.com</h4>
-        <br >
-        <!-- Penginputan Panjang, Lebar, Tinggi -->
-        <label for="panjang">Panjang</label>
-        <input type="number" id="panjang" name="variabel">
-        <label for="lebar">Lebar</label>
-        <input type="number" id="lebar" name="variabel">
-        <label for="tinggi">Tinggi</label>
-        <input type="number" id="tinggi" name="variabel">
-        <button onclick="myFunction()">Hitung</button>
-        <p id="demo"></p>
-        <script>
-            //Penghitungan Volume
-            function myFunction(){
-                var panjang = document.getElementById("panjang").value
-                var lebar = document.getElementById("lebar").value
-                var tinggi = document.getElementById("tinggi").value
-                var volume = panjang * lebar * tinggi
-                document.getElementById("demo").innerText = "Volume Balok = " + volume + " cm^3"
-            }
-        </script>
-    </body>
+<head>
+    <title>hobingodingcom</title>
+    <style>
+        body { text-align: center; }
+        h2, h4 { margin: 0; }
+        p#demo { font-weight: bold; }
+        input { width: 75px; }
+    </style>
+</head>
+<body>
+    <h2>Program Menghitung Volume Balok</h2>
+    <h4>visit us hobingoding.com</h4>
+    <br>
+    <!-- Input Panjang -->
+    <label for="panjang">Panjang</label><input type="number" id="panjang">
+    <!-- Input Lebar -->
+    <label for="lebar">Lebar</label><input type="number" id="lebar">
+    <!-- Input Tinggi -->
+    <label for="tinggi">Tinggi</label><input type="number" id="tinggi">
+    <button onclick="hitungVolume()">Hitung</button>
+    <p id="hasil"></p>
+    <script>
+        // Hitung Volume
+        function hitungVolume() {
+            var panjang = document.getElementById("panjang").value
+            var lebar = document.getElementById("lebar").value
+            var tinggi = document.getElementById("tinggi").value
+            let hasil = document.getElementById("hasil")
+            var volume = panjang * lebar * tinggi
+            hasil.innerText = "Volume Balok : " + volume
+        }
+    </script>
+</body>
 </html>
