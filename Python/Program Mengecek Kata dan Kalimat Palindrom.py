@@ -1,15 +1,16 @@
-print("Program Mengecek Kata Palindrom atau Bukan Palindrom")
-print("visit us @hobingoding.com")
+print("Program Mengecek Kata dan Kalimat Palindrom")
+print("visit us hobingoding.com")
 print()
-#Input Kata
+# Input Kata
 kata = input("Input Kata : ")
 temp = ""
-#Balik Kata
+
+# Balik Kata
 for i in range(len(kata)-1, -1, -1): 
-    temp+=kata[i]
-print("Hasil : ", end="")
-#Bandingkan Kata
+    temp += kata[i]
+
+# Cek Palindrom
 if(kata == temp):
-    print("Palindrom")
+    print("Hasil : Palindrom")
 else:
-    print("Bukan Palindrom")
+    print("Hasil : Bukan Palindrom")
