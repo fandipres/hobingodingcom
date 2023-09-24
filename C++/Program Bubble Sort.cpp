@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main() {
     int banyak_data, i, j;
     
     cout << "Pengurutan Data dengan Algoritma Bubble Sort" << endl;
