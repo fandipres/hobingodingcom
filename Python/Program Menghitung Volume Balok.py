@@ -1,11 +1,13 @@
 print("Program Menghitung Volume Balok")
-print("visit us @hobingoding.com")
+print("visit us hobingoding.com")
 print()
-#Input Panjang
+# Input Panjang
 panjang = int(input("Input Panjang : "))
-#Input Lebar
+# Input Lebar
 lebar = int(input("Input Lebar : "))
-#Input Tinggi
+# Input Tinggi
 tinggi = int(input("Input Tinggi : "))
-#Hitung Luas
-print("Volume :", panjang * lebar * tinggi)
+
+# Hitung Volume
+volume = panjang * lebar * tinggi
+print("Volume Balok :", volume)
