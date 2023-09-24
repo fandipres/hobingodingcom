@@ -1,9 +1,9 @@
 print("Pengurutan Data dengan Algoritma Insertion Sort")
 print("visit us hobingoding.com")
 print()
+data = []
 # Input Banyak Data
 banyak_data = int(input("Input Banyak Data : "))
-data = []
 
 # Input Data
 print("Input Data :")
