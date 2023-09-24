@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main() {
     int bilangan;
     
     cout << "Program Menentukan Bilangan Ganjil Genap" << endl;
