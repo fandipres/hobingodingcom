@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     string kata;
     int i, j;
-	bool palindrome = true;
+    bool palindrome = true;
 	
     cout << "Program Mengecek Kata dan Kalimat Palindrom" << endl;
     cout << "visit us hobingoding.com\n" << endl;
