@@ -6,4 +6,4 @@ r = int(input("Input Jari-jari : "))
 
 # Hitung Luas
 luas = 3.14 * r * r
-print("Luas : %.2f"%(luas))
+print("Luas Lingkaran : %.2f"%(luas))
