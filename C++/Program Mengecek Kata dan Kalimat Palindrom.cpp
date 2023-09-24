@@ -1,31 +1,30 @@
 #include <iostream>
 using namespace std;
-//source code by hobingoding.com
 
-int main(){
+int main() {
     string kata;
-    int n, i;
+    int i, j;
 	bool palindrome = true;
 	
-    cout << "Program Mengecek Kata - Kalimat Palindrom atau Bukan" << endl;
-    cout << "source code by hobingoding.com\n" << endl;
+    cout << "Program Mengecek Kata dan Kalimat Palindrom" << endl;
+    cout << "visit us hobingoding.com\n" << endl;
+    // Input Kata
     cout << "Input Kata : ";
     getline(cin, kata);
-    n = kata.length();
+    j = kata.length();
 
-    for(i = 0; i < n; i++){
-		if(kata[i] != kata[n-i-1])
-		{
+    // Cek Palindrom
+    for(i = 0; i < j; i++) {
+		if(kata[i] != kata[j-i-1]) {
 			palindrome = false;
 			break;
 		}
 	}
 
-    cout << "Result : ";
     if(palindrome == true)
-        cout << "Palindrom";
+        cout << "Hasil : Palindrom";
     else
-        cout << "Bukan Palindrom";
+        cout << "Hasil : Bukan Palindrom";
     cin.ignore();
     return 0;
 }
