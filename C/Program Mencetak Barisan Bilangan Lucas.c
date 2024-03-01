@@ -13,7 +13,7 @@ int main() {
     int panjang_barisan, i;
     int total = 0;
 
-    printf("Program Menampilkan dan Menghitung Barisan Bilangan Lucas\n");
+    printf("Program Mencetak Barisan Bilangan Lucas\n");
     printf("visit us hobingoding.com\n\n");
     // Input Panjang Barisan
     printf("Input Panjang Barisan : ");
