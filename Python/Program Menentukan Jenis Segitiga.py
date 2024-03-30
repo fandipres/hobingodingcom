@@ -5,7 +5,7 @@ print()
 print("Opsi Jenis Segitiga : ")
 print("1. Sisi")
 print("2. Sudut")
-opsi = input("Input Opsi Jenis Segitiga : ")
+opsi = input("Input Opsi : ")
 
 # Opsi Jenis Segitiga
 if(opsi == "1"):
