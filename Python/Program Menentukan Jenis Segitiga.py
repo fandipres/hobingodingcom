@@ -28,3 +28,5 @@ elif(opsi == "2"):
         print("Hasil : Segitiga Tumpul")
     elif(sudut_1 == 90 or sudut_2 == 90 or sudut_3 == 90):
         print("Hasil : Segitiga Siku-siku")
+else:
+    print("Maaf : Opsi tidak tersedia.")
