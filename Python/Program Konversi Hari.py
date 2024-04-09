@@ -1,7 +1,7 @@
 print("Program Konversi Hari")
 print("visit us hobingoding.com")
 print()
-# Input hari
+# Input Hari
 hari = int(input("INPUT HARI : "))
 
 # Konversi Hari
