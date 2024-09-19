@@ -6,7 +6,7 @@ int main() {
     printf("Program Mencetak Barisan Bilangan Ganjil Genap\n");
     printf("visit us hobingoding.com\n\n");
     // Input Nilai
-    printf("Input Nilai n : ");
+    printf("Input Nilai N : ");
     scanf("%d", &n);
 
     // Barisan Bilangan Genap

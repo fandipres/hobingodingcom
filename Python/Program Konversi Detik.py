@@ -2,7 +2,7 @@ print("Program Konversi Detik")
 print("visit us hobingoding.com")
 print()
 # Input Detik
-detik = int(input("INPUT DETIK : "))
+detik = int(input("Input Detik : "))
 
 # Konversi Detik
 hari = detik // 86400
@@ -13,4 +13,4 @@ detik %= 3600
 
 menit = detik // 60
 detik %= 60
-print("HASIL : %d HARI %d JAM %d MENIT %d DETIK"%(hari, jam, menit, detik))
+print(f"Hasil : {hari} Hari {jam} Jam {menit} Menit {detik} Detik")

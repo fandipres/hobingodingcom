@@ -26,7 +26,7 @@ int main() {
     }
 
     // Hasil Pengurutan Data
-    printf("Hasil Pengurutan Data : ");
+    printf("Hasil : ");
     for (i = 0; i < banyak_data; i++) {
         printf("%d ", data[i]);
     }

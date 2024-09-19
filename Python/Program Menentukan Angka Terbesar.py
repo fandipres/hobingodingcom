@@ -8,9 +8,9 @@ def maxNumber(a, b):
     elif(a < b):
         return b
     else:
-        return "Equal"
+        return "Sama"
 
 # Input Angka
-angka_1 = int(input("INPUT ANGKA-1 : "))
-angka_2 = int(input("INPUT ANGKA-2 : "))
-print("HASIL :", maxNumber(angka_1, angka_2))
+angka_1 = int(input("Input Angka-1 : "))
+angka_2 = int(input("Input Angka-2 : "))
+print("Hasil :", maxNumber(angka_1, angka_2))

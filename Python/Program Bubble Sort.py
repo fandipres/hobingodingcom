@@ -19,4 +19,4 @@ for i in range(0, banyak_data):
             data[j+1] = tmp
 
 # Hasil Pengurutan Data
-print("Hasil Pengurutan Data :", data)
+print("Hasil :", data)

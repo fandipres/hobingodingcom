@@ -25,4 +25,4 @@ elif(opsi == "3"):
     s = (js * 100000) / jp
     print("Skala : %d : %d"%(1, s))
 else:
-    print("Maaf : Opsi tidak tersedia.")
+    print("Maaf : Opsi tidak tersedia")

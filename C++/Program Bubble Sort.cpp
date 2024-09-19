@@ -29,7 +29,7 @@ int main() {
     }
     
     // Hasil Pengurutan Data
-    cout << "Hasil Pengurutan Data : ";
+    cout << "Hasil : ";
     for(i = 0; i < banyak_data; i++) {
         cout << data[i] << " ";
     }

@@ -29,6 +29,6 @@ int main() {
     else if(nilai > 0 && nilai <= 39)
         printf("Nilai Huruf : E");
     else
-        printf("MAAF : Masukan Anda Salah");
+        printf("Maaf : Masukan Anda salah");
     return 0;
 }

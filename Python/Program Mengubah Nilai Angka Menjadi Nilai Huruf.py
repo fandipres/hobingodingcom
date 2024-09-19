@@ -24,4 +24,4 @@ elif(nilai > 39 and nilai <= 49):
 elif(nilai > 0 and nilai <= 39):
     print("Nilai Huruf : E")
 else:
-    print("MAAF : Masukan Anda Salah")
+    print("Maaf : Masukan Anda salah")

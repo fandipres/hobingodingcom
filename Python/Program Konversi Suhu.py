@@ -33,6 +33,6 @@ elif opsi == "4":
     c = (5 / 4) * suhu
     f = (9 / 4) * suhu + 32
     k = (5 / 4) * suhu + 273
-    print(f"SUHU {suhu} R :\n- C {c:.2f}\n- F {f:.2f}\n- K {k:.2f}")
+    print(f"Suhu {suhu} R :\n- C {c:.2f}\n- F {f:.2f}\n- K {k:.2f}")
 else:
-    print("Maaf : Opsi Tidak Tersedia")
+    print("Maaf : Opsi tidak tersedia")

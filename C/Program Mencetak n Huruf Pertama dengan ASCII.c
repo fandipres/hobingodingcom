@@ -5,15 +5,15 @@ int main() {
     int huruf_besar = 65;
     int n;
 
-    printf("Program Mencetak n Huruf Pertama\n");
+    printf("Program Mencetak N Huruf Pertama\n");
     printf("visit us hobingoding.com\n\n");
     // Input Nilai
-    printf("Input Nilai n : ");
+    printf("Input Nilai N : ");
     scanf("%d", &n);
 
     // Cetak Nilai
     if(n < 0 || n > 26) {
-        printf("MAAF : Nilai n tidak sesuai dengan jumlah alfabet (1-26)");
+        printf("Maaf : Nilai N tidak sesuai dengan jumlah alfabet (1-26)");
     }
     else {
         printf("Lower Case : ");
