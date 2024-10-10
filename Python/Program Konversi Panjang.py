@@ -1,22 +1,22 @@
-print("Program Konversi Massa")
+print("Program Konversi Panjang")
 print("visit us hobingoding.com")
 print()
-# Opsi Satuan Massa
-opsi = ["kg", "hg", "dag", "g", "dg", "cg", "mg"]
+# Opsi Satuan Panjang
+opsi = ["km", "hm", "dam", "m", "dm", "cm", "mm"]
 
-# Input Massa
+# Input Panjang
 satuan_awal = input("Input Satuan Awal : ").lower()
 satuan_akhir = input("Input Satuan Akhir : ").lower()
-massa = float(input("Input Nilai Massa : "))
+panjang = float(input("Input Nilai Panjang : "))
 
-# Konversi Massa
+# Konversi Panjang
 try:
     index_awal = opsi.index(satuan_awal)
     index_akhir = opsi.index(satuan_akhir)
 
     # Hitung Konversi
     faktor_konversi = 10 ** (index_akhir - index_awal)
-    hasil_konversi = massa * faktor_konversi
-    print(f"Hasil : {massa} {satuan_awal} = {hasil_konversi} {satuan_akhir}")
+    hasil_konversi = panjang * faktor_konversi
+    print(f"Hasil : {panjang} {satuan_awal} = {hasil_konversi} {satuan_akhir}")
 except ValueError:
     print("Maaf : Opsi tidak tersedia")
