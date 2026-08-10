@@ -1,2 +1,1 @@
-﻿# hobingodingcom
-One blog, many skills. Programming, blogging, game dev, and more because being curious is part of the code.
+﻿This repo contains supporting source code for hobingoding.com, a blog offering beginner-friendly programming lessons through posts and light video tutorials. The customization covers layout, styling, and extra elements not available in Blogger's default themes.
